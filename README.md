@@ -12,59 +12,61 @@
 
 ## 이더리움 개발 환경 세팅 
 
-- Windows
+##### Windows
 
-  - geth 설치
+- geth 설치
 
-    1) <https://ethereum.github.io/go-ethereum>에서 설치 파일 다운
-    2) PowerShell에서 `geth version` 명령어를 통해 설치 확인
+  1) <https://ethereum.github.io/go-ethereum>에서 설치 파일 다운
+  2) PowerShell에서 `geth version` 명령어를 통해 설치 확인
 
-  - node.js, npm 설치
+- node.js, npm 설치
 
-    이미 설치되어 있다면 할 필요 없음
+  이미 설치되어 있다면 할 필요 없음
 
-    1) <https://nodejs.org>에서 현재 버전으로 설치
+  1) <https://nodejs.org>에서 현재 버전으로 설치
 
-    2) PowerShell에서 `node -v`, `npm -v`로 설치 확인
+  2) PowerShell에서 `node -v`, `npm -v`로 설치 확인
 
-  - truffle 설치
+- truffle 설치
 
-    1) PowerShell에서 `npm install -g truffle` 
+  1) PowerShell에서 `npm install -g truffle` 
 
-    2) `truffle version`으로 설치 확인
+  2) `truffle version`으로 설치 확인
 
-  - ganache 설치
+- ganache 설치
 
-    <http://truffleframework.com/ganache>에서 설치 파일 다운
+  <http://truffleframework.com/ganache>에서 설치 파일 다운
 
-- MacOS
+---
 
-  - homebrew 설치
+##### MacOS
 
-    1) <https://brew.sh>에 명령어를 터미널에서 실행
+- homebrew 설치
 
-    2) `brew —version`으로 설치 확인
+  1) <https://brew.sh>에 명령어를 터미널에서 실행
 
-  - geth 설치
+  2) `brew —version`으로 설치 확인
 
-    1) 터미널에서 `brew tap etherrum/ethereum`
+- geth 설치
 
-    2) `brew install ethereum`
+  1) 터미널에서 `brew tap etherrum/ethereum`
 
-  - node.js, npm 설치
+  2) `brew install ethereum`
 
-    이미 설치되어 있다면 할 필요 없음
+- node.js, npm 설치
 
-    1) `brew install node`
+  이미 설치되어 있다면 할 필요 없음
 
-    2) 터미널에서 `node -v`, `npm -v`로 설치 확인
+  1) `brew install node`
 
-  - truffle 설치
+  2) 터미널에서 `node -v`, `npm -v`로 설치 확인
 
-    1) 터미널에서 `npm install -g truffle` 
+- truffle 설치
 
-    2) `truffle version`으로 설치 확인
+  1) 터미널에서 `npm install -g truffle` 
 
-  - ganache 설치
+  2) `truffle version`으로 설치 확인
 
-    <<http://truffleframework.com/ganache>>에서 설치 파일 다운
+- ganache 설치
+
+  <http://truffleframework.com/ganache>에서 설치 파일 다운
