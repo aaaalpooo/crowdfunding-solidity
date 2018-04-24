@@ -12,7 +12,7 @@
 
 ## 이더리움 개발 환경 세팅 
 
-##### Windows
+#### Windows
 
 - geth 설치
 
@@ -37,9 +37,7 @@
 
   <http://truffleframework.com/ganache>에서 설치 파일 다운
 
----
-
-##### MacOS
+#### MacOS
 
 - homebrew 설치
 
