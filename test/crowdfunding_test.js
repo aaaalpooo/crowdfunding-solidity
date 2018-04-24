@@ -7,7 +7,7 @@ contract('Crowdfunding', function(accounts) {
   var secondFunder = accounts[4];
 
   var firstFundingGoal = web3.toWei(10, "ether");
-  var secondFundingGoaa = web3.toWei(5, "ether");
+  var secondFundingGoal = web3.toWei(5, "ether");
 
   var fundAmountForFirst = web3.toWei(20, "ether");
   var fundAmountForSecond =  web3.toWei(15, "ether");
@@ -41,7 +41,7 @@ contract('Crowdfunding', function(accounts) {
   it("should create second campaign", function() {
     return Crowdfunding.deployed().then(function(instance) {
       return instance.createCampaign(
-        secondFundingGoaa,
+        secondFundingGoal,
         {from: secondCreator}
       );
     }).then(function(receipt) {
@@ -49,7 +49,7 @@ contract('Crowdfunding', function(accounts) {
       assert.equal(receipt.logs[0].event, "GenerateCampaign", "event should be GenerateCampaign");
       assert.equal(receipt.logs[0].args._id, 1, "campaign id must be 1");
       assert.equal(receipt.logs[0].args._creator, secondCreator, "campaign creator must be " + secondCreator);
-      assert.equal(receipt.logs[0].args._fundingGoal.toNumber(), secondFundingGoaa, "funding goal must be " + secondFundingGoaa);
+      assert.equal(receipt.logs[0].args._fundingGoal.toNumber(), secondFundingGoal, "funding goal must be " + secondFundingGoal);
       assert.equal(receipt.logs[0].args._pledgedFund, 0, "pledged fund must be " + 0);
       assert.equal(receipt.logs[0].args._deadline.toNumber() - now - aWeek < 3600, true, "campaign deadline must be less then error range a day");
     });
