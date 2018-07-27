@@ -3,7 +3,7 @@
 솔리디티로 작성된 이더리움 기반의 크라우드펀딩(Crowdfunding) DApp입니다.    
 본 코드는 프로그래머스(programmers.co.kr)의 [블록체인 개발 온라인 코스의 실습](https://programmers.co.kr/learn/courses/36)을 위해 작성되었습니다.
 
-![튜토리얼 실습 환경 예시](https://s3.ap-northeast-2.amazonaws.com/grepp-cloudfront/programmers_imgs/learn/course36/course36_preview.png)
+![튜토리얼 실습 환경 예시](https://github.com/phenol94/crowdfunding-solidity/blob/master/course36_preview.png)
 
 ## Introduction
 
